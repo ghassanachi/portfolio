@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "publish": "yarn install && next build && next export",
+    "deploy": "yarn install && next build && next export",
     "start": "next start"
   },
   "dependencies": {
