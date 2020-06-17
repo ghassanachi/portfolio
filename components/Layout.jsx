@@ -6,7 +6,8 @@ export default function Layout({ children }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ghassan Portfolio</title>
+	<meta name="descritption" content="Ghassan Gedeon Achi's personal website. Software developer with a keen interest in DevOps" />
+        <title>Ghassan's Website</title>
       </Head>
       <div id="main">{children}</div>
       <style jsx>{`
